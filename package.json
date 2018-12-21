@@ -1,0 +1,32 @@
+{
+  "name": "ci_csrf_attack",
+  "version": "1.0.0",
+  "description": "Cross-Site Request Forgery (CSRF) Attack di CodeIgniter\r ============================================================",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-ui": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Susantokun/ci_csrf_attack.git"
+  },
+  "keywords": [
+    "codeigniter",
+    "csrf",
+    "csrf",
+    "attack",
+    "susantokun",
+    "ci",
+    "token"
+  ],
+  "author": "Susantokun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Susantokun/ci_csrf_attack/issues"
+  },
+  "homepage": "https://github.com/Susantokun/ci_csrf_attack#readme"
+}
