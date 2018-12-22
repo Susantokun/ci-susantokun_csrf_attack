@@ -10,7 +10,7 @@
 # @Instagram 	: susantokun
 # @Website 		: http://www.susantokun.com
 # @Youtube 		: http://youtube.com/susantokun
-# @Last modified time: 2018-12-18T17:13:30+07:00
+# @Last modified time: 2018-12-21T18:07:03+07:00
 #===================================================|
 
 defined('BASEPATH') OR exit('No direct script access allowed');
@@ -29,20 +29,6 @@ class Csrf extends CI_Controller{
   function index()
   {
     $this->load->view('csrf_form');
-  }
-
-  public function create()
-  {
-    $data = array(
-      'name' => $this->input->post('name'),
-      'description' => $this->input->post('description'),
-    );
-    $this->db->insert('tbl_csrf', $data);
-    if ($this->db->affected_rows()) {
-      echo "Berhasil";
-    } else {
-      echo "Gagal";
-    }
   }
 
 }

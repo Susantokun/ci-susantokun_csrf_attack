@@ -11,6 +11,6 @@ Berikut adalah cara menggunakan ci_csrf_attack :
 6. Aktifkan csrf pada ci_csrf dan lakukan hal yang sama
 7. Jika hasilnya data tidak masuk ke database (gagal) maka keamanan dari csrf sudah berhasil
 
-Live Demo dan Tutorial
+Live Demo dan Contoh Kasus
 ------------------------------------------------------------
-- OTW
+- https://youtu.be/9JH22oAiB_8
